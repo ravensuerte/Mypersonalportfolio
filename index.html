@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RavenPersonalPortfolio</title>
+    <link rel="stylesheet" href="styles/portfoliostyles.css">
+</head>
+<body>
+    <nav class="nav">
+        <img class="logo" src="images/darkhisoka.jpg" alt="logo">
+        <img class="logo1" src="images/chibii.jpg" alt="dark"><br>
+        
+        <label for="modeSwitch" class="darkmode">
+        <input type="checkbox" id="modeSwitch">Switch Dark Mode?</label>
+        
+        <ul class="nav-list">
+            <li><a href="#aboutme">ABOUT ME</a>
+            </li>
+            <li>
+                <a href="#myworks">WORKS</a>
+            </li>
+            <li>
+                <a href="#mycontact">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- end of nav -->
+
+    
+    <section class="menu" id="aboutme">
+        <img class="profile" src="images/hisokaChiby.jpg" alt="picture">
+        <h1 class="profile1">HELLO! <br>I AM RAVEN <br> A PROGRAMMER</h1>
+    </section>
+    <!-- end of profile -->
+
+    <hr>
+    
+    <section id="myworks" class="projects-section">
+      <h2 class="projects-section-header">These are some of my projects</h2>
+        <div class="projects-grid">
+          <a
+            href="https://ravensuerte.github.io/TributePage/"
+            target="blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://i.ibb.co/C5Cmc17/hero.jpg"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Bruce Lee Tribute Page
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          </div>
+
+          <div class="projects-grid">
+            <a
+              href="https://ravensuerte.github.io/Calculator/"
+              target="blank"
+              class="project project-tile"
+            >
+              <img
+                class="project-image"
+                src="images/Calc..jpg"
+                alt="project"
+              />
+              <p class="project-title">
+                <span class="code">&lt;</span>
+                Simple Calculator
+                <span class="code">&#47;&gt;</span>
+              </p>
+            </a>
+            </div>
+      </section>
+      <hr>
+      <section id="mycontact" class="contact-section">
+        <div class="contact-section-header">
+          <h2>Let's work together...</h2>
+          <p>How do you take your coffee?</p>
+        </div>
+        <div class="contact-links">
+          <a
+            href="https://web.facebook.com/opparavenjays"
+            target="blank"
+            class="btn contact-details"
+            ><i class="fab fa-facebook-square"></i> Facebook</a
+          >
+          <a
+            id="profile-link"
+            href="https://github.com/ravensuerte"
+            target="blank"
+            class="btn contact-details"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+          
+          
+          <a href="" class="btn contact-details"
+            ><i class="fas fa-mobile-alt"></i> Call me</a
+          >
+        </div>
+      </section>
+    
+
+    <script src="scripts/darkmode.js"></script>
+</body>
+</html>
